@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(to top, #1A5B38,#30AB67,#84E1AD);
+    margin: 0px;
+}
+.cabecalho{
+    text-align: center;
+}
+
+.tituloh1{
+    font-size: 2.5em;
+}
+
+.ptitulo {
+    font-size: 1.5em;
+}
+
+.menu {
+    text-align:justify;
+    /* deixa os links brancos */
+}
+
+main{
+    background-color: white;
+    margin:510px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.subtitulo{
+    font-size: 2em;
+    
+}
