@@ -1,13 +1,27 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #84E1AD;
+    
 }
+
 
 header{
     background-image: linear-gradient(to top, #1A5B38,#30AB67,#84E1AD);
+    border: 0px;
     margin: 0px;
+    padding: 10px;
+    padding-top: 40px;
+    font-size: 1.2em;
+    
 }
+
 .cabecalho{
     text-align: center;
 }
@@ -22,6 +36,9 @@ header{
 
 .menu {
     text-align:justify;
+    padding-top: 40px;
+    font-size: 1.2em;
+    
     /* deixa os links brancos */
 }
 
@@ -30,11 +47,50 @@ main{
     margin:510px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px;
+    padding: 30px;
     border: 0px;
 }
 
+
+
+p{
+    font-size: 1.5em;
+}
+
 .subtitulo{
-    font-size: 2em;
+    font-size: 2.5em;
+    padding: 30px;
     
+    
+}
+
+.video{
+    background-color: #1A5B38;
+    text-align: center;
+    padding: 30px;
+}
+
+.titulodacaixa{
+    background-color: #1A5C38;
+    border-radius: 20px;
+}
+
+.caixa2 {
+    background-color: #84E1AD;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.li {
+    padding: 10px;
+    margin: 25px;
+    text-align:justify;
+}
+footer{
+    background-color: #1A5C38;
+    margin: 1px;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
 }
